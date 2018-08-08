@@ -6,22 +6,22 @@ package ash;
  **/
 class GenericListIterator<TNode:HasNext<TNode>>
 {
-    private var previous:HasNext<TNode>;
+    private var current:TNode;
 
     public inline function new(head:TNode)
     {
-        this.previous = {next: head};
+        this.current = head;
     }
 
     public inline function hasNext():Bool
     {
-        return previous.next != null;
+        return current != null;
     }
 
     public inline function next():TNode
     {
-        var node:TNode = previous.next;
-        previous = node;
+        var node:TNode = current;
+        current = current.next;
         return node;
     }
 }
