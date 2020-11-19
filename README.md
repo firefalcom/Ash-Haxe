@@ -1,6 +1,6 @@
 # Ash-Haxe
 
-Haxe port of the Ash framework by Richard Loard.
+Haxe port of the Ash framework by Richard Lord.
 
 ## Features since forked
 
