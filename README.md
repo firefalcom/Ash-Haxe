@@ -11,7 +11,7 @@ Haxe port of the Ash framework by Richard Loard.
 
 ## Original Readme
 
-This is a [Haxe](http://haxe.org/) port of the awesome [Ash entity component framework](http://www.ashframework.org/) by Richard Lord.
+This is a [Haxe](http://haxe.org/) port of the awesome [Ash entity component framework](https://www.richardlord.net/ash/) by Richard Lord.
 It leverages Haxe's great cross-platform portability and runs on Flash, JavaScript, C++, Android, iOS and so on.
 Also it uses much static typing features of Haxe, allowing more mistakes to be detected at compile time instead
 of runtime than in original ActionScript 3 version.
