@@ -88,7 +88,7 @@ class SystemList
         var system:System = head;
         while (system != null)
         {
-            if (Std.is(system, type))
+            if (Std.isOfType(system, type))
                 return cast system;
             system = system.next;
         }
